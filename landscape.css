@@ -16,7 +16,7 @@ section.login{
     height: 190px;
     background-color: #536cbd86;
     position: absolute;
-    top: calc(65% - 100px);
+    top: calc(60% - 100px);
     left: calc(50% - 150px);
     border-radius: 9px;
     box-shadow: 2px 2px 4px #253650;
