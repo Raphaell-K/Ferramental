@@ -1,26 +1,49 @@
 @charset "utf-8";
  
-.voltar img{
-    width: 50px;
-    height: 50px;
-}
-
-/*  Aparelhos pequenos  */
-@media screen and (max-width:600px ){
-
-
-/* Página de contatos */
 *{
     margin: 0px;
     padding: 0px;
 }   
-body, html {
+body{
     height: 100vh;
     width: 100vw;
     background-size:  cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
+.voltar img{
+    width: 50px;
+    height: 50px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    height: 13px;
+}
+footer p {
+    text-align: right;
+    font-size: .7em;
+    background-image: linear-gradient( to left ,  #1B354A ,#4a90c942 30% );
+}footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+/*  Aparelhos pequenos  */
+@media screen and (max-width:600px ){
+
+
+/* Página de contatos */
+
 #texto-voltar{
     font-size: .8em;
     color: white;
@@ -43,19 +66,7 @@ div.iconesCC img{
     transform: translateY(-5px);
     transition: .1s;
 }
-footer{
-    position: absolute;
-    bottom: 0px;
-    width: 100vw;
-}
-footer p {
-    text-align: right;
-    height: 15px;
-    font-size: .7em;
-    background-image: linear-gradient( to left ,  #1B354A ,#4a90c970 30% );
-}footer a {
-    text-decoration: none;
-    color: white;
+
 }
 /* fim da pagina de contatos */
 
@@ -63,27 +74,8 @@ footer p {
 
 
 
-
-
-
-
-
-}
-
  @media screen and (min-width:601px) and (max-width:1080px ){
 
-
-*{
-    margin: 0px;
-    padding: 0px;
-}   
-body, html {
-    height: 100vh;
-    width: 100vw;
-    background-size:  cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
 #texto-voltar{
     font-size: .8em;
     color: white;
@@ -106,36 +98,14 @@ div.iconesCC img{
     transform: translateY(-5px);
     transition: .1s;
 }
-footer{
-    position: absolute;
-    bottom: 0px;
-    width: 100vw;}
-    footer p {
-    text-align: right;
-    height: 15px;
-    font-size: .7em;
-    background-image: linear-gradient( to left ,  #1B354A ,#4a90c970 30% );
-}footer a {
-    text-decoration: none;
-    color: white;
-}
+
     
     
 }
 
  @media screen and (min-width:1081px ) {
 
-    *{
-        margin: 0px;
-        padding: 0px;
-    }   
-    body {
-        height: 100vh;
-        width: 100vw;
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-    }
+   
     #texto-voltar{
         font-size: .8em;
         color: white;
@@ -158,17 +128,4 @@ footer{
         transform: translateY(-5px);
         transition: .1s;
     }
-    footer{
-        position: absolute;
-        bottom: 0px;
-        width: 100vw;}
-        footer p {
-        text-align: right;
-        height: 15px;
-        font-size: .7em;
-        background-image: linear-gradient( to left ,  #1B354A ,#4a90c970 30% );
-    }footer a {
-        text-decoration: none;
-        color: white;
-}
 }
