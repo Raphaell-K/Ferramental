@@ -7,8 +7,9 @@
 
 /* barra de navegação fixa com menu */
 
-header{ /* CABECALHO */
+header nav{ /* CABECALHO */
     width: 100vw;
+    overflow: hidden;
     background-color: #4a90c9cb;
     box-shadow: 2px 2px 2px #34658d93 ;
 }ul {
