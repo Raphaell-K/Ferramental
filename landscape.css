@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+
+div#imagem{/* div acima dos campos input*/
+    width: 100vw;
+    height: 40px;
+    background-color: #417EB0;
+}
+section.login{
+    width: 300px;
+    height: 190px;
+    background-color: #536cbd86;
+    position: absolute;
+    top: calc(65% - 100px);
+    left: calc(50% - 150px);
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px #253650;
+    overflow: hidden;
+}
+div.campo{
+    position: relative;
+    top: calc(50% - 90px);
+    left: calc(50% - 100px);
+    margin-bottom: 10px;
+}
+/* alinhamento avulso do primeiro campo de login = EMAIL */
+div#campo2{
+    padding-left: 3px;
+}
+div#entrada {
+    width: 90px;
+    position: relative;
+    left: calc(50% - 40px);
+}
+div#entrada input{
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 08pt;
+}
+/* icones de login da home */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' -25,
+  'opsz' 40;
+}
+span {
+    position: relative;
+    top: 9px;
+    left: calc(40% - 125px);
+}
